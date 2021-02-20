@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTrans"
+    android:id="@+id/quizNav">
+
+    <TextView
+        android:text="Question"
+        android:textStyle="bold"
+        android:textColor="#070F6D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:text="1/10"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/audio"
+        android:layout_width="50dp"
+        android:layout_height="50sp"
+        android:background="@drawable/volum"
+        android:layout_marginLeft="260dp"/>
+
+    <TextView
+        android:text="Question"
+        android:textColor="#070F6D"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/question"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:text="op1"
+        android:textColor="@color/colorWhite"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/option1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center" />
+
+    <Button
+        android:text="op2"
+        android:textColor="@color/colorWhite"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/option2"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center" />
+
+    <Button
+        android:text="op3"
+        android:textColor="@color/colorWhite"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/option3"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center" />
+
+</LinearLayout>

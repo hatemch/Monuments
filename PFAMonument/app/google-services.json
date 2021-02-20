@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "271910902414",
+    "firebase_url": "https://pfamonument.firebaseio.com",
+    "project_id": "pfamonument",
+    "storage_bucket": "pfamonument.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271910902414:android:a5253bf2611871ce",
+        "android_client_info": {
+          "package_name": "com.example.pfamonument"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271910902414-8tha8gtu3k3a08grh3bsvfpb2iv05t1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW3w0JCGTeLNt_lA39qxjqHgkoRgH4TVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageCompte"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/userphoto" />
+
+    <EditText
+        android:id="@+id/SaisirName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Saisir Votre Nom"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/SaisirEmail"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Saisir Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/SaisirPassword"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Saisir Mot de passe"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/compteButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:text="Créer Compte"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

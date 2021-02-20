@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Monument Guide"
+        android:textColor="#070F60"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Sousse"
+        android:textColor="#DC1361"
+        android:textSize="25dp" />
+
+    <TabHost
+        android:layout_height="match_parent"
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="90dp">
+
+                <include
+                    android:id="@+id/tab1"
+                    layout="@layout/profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="435dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/tab2"
+                    layout="@layout/quiz"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <include
+                    android:id="@+id/tab3"
+                    layout="@layout/home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <include
+                    android:id="@+id/tab4"
+                    layout="@layout/gallerie"
+                    android:layout_width="match_parent"
+                    android:layout_height="453dp"/>
+
+                <include
+                    android:id="@+id/tab5"
+                    layout="@layout/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="0.03"
+            android:background="#070F6D"
+            android:layout_marginTop="449dp"/>
+    </TabHost>
+
+</RelativeLayout>

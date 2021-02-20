@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTrans">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom Place :"
+        android:textColor="@color/colorBlueFonce"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/pNomPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nom place"
+        android:inputType="textPersonName"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:textColor="@color/colorBlueFonce"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/pDescriptionPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="140dp"
+        android:minHeight="100dp"/>
+
+    <ImageView
+        android:id="@+id/pImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cameragif"
+        android:layout_marginTop="190sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Latitude : " />
+
+        <TextView
+            android:id="@+id/latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="latitude" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Longitude :" />
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="longitude" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>

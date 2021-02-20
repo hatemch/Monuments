@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/home"
+            android:title="@string/accueil" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/quiz2"
+            android:title="@string/quiz" />
+        <item
+            android:id="@+id/nav_favoris"
+            android:icon="@drawable/fav"
+            android:title="@string/favoris" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/add"
+            android:title="Nouvel Endroit" />
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_email"
+                android:title="Email:MG@gmail.com"
+                android:icon="@drawable/mail"/>
+            <item
+                android:id="@+id/nav_tel"
+                android:title="Tél : +216 28343532"
+                android:icon="@drawable/phone"/>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/exit"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

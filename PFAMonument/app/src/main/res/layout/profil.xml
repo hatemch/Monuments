@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profilNav"
+    android:orientation="vertical"
+    android:background="@color/colorTrans"
+    android:paddingTop="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageProfil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/userphoto" />
+
+    <EditText
+        android:id="@+id/EditName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Saisir Votre Nom"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/EditEmail"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:hint="Saisir Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button"
+        android:text="Enregistrer"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resultat"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Résultat"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@color/colorBlueFonce"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/colorVioletFonce"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <view
+        android:id="@+id/view"
+        class="pl.droidsonroids.gif.GifTextView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/score"
+        android:layout_gravity="center"
+        android:layout_marginTop="45sp"
+        android:background="@drawable/giphy" />
+</LinearLayout>
